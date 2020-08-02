@@ -3,8 +3,9 @@ def fizzbuzz(num)
   "Fizz" # Go fizz
 end
 
-puts fizz_3 = fizzbuzz(3)
-puts fizz_5 = fizzbuzz(5)
-puts fizz_15 = fizzbuzz(15)
-puts fizz_4 = fizzbuzz(4)
+describe "fizzbuzz" do
+  it 'returns "Fizz" when the number is divisible by 3' do
+
+    fizz_3 = fizzbuzz(3)
+    expect(fizz_3).to eq("Fizz")
 end
