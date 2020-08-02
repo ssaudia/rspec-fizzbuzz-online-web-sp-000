@@ -3,6 +3,6 @@ def fizzbuzz(num)
   "Fizz" # Go fizz
 end
 
-puts num % 3 == "Fizz"
+puts num % 3...5 == "Fizz"
 puts num % 5 == "Buzz"
 end
