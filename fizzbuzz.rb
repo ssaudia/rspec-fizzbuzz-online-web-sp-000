@@ -4,7 +4,7 @@ def fizzbuzz(num)
 end
 
 puts fizz_3 = fizzbuzz (3)
-puts fizz_5 = fizzbuzz(5)
-puts fizz_15 = fizzbuzz(15)
-puts fizz_4 = fizzbuzz(4)
+puts fizz_5 = fizzbuzz (5)
+puts fizz_15 = fizzbuzz (15)
+puts fizz_4 = fizzbuzz (4)
 end
